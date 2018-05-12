@@ -21,7 +21,7 @@ namespace CII_Reserch.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("CII_Reserch", throwIfV1Schema: false)
         {
         }
 
